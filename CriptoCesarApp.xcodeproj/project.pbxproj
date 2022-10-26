@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C0AC0B272908A896008D5D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B262908A896008D5D1F /* AppDelegate.swift */; };
-		C0AC0B292908A896008D5D1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B282908A896008D5D1F /* SceneDelegate.swift */; };
 		C0AC0B2B2908A896008D5D1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B2A2908A896008D5D1F /* ViewController.swift */; };
 		C0AC0B2E2908A896008D5D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0AC0B2C2908A896008D5D1F /* Main.storyboard */; };
 		C0AC0B302908A897008D5D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AC0B2F2908A897008D5D1F /* Assets.xcassets */; };
@@ -16,6 +15,25 @@
 		C0AC0B3E2908A897008D5D1F /* CriptoCesarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B3D2908A897008D5D1F /* CriptoCesarAppTests.swift */; };
 		C0AC0B482908A897008D5D1F /* CriptoCesarAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B472908A897008D5D1F /* CriptoCesarAppUITests.swift */; };
 		C0AC0B4A2908A897008D5D1F /* CriptoCesarAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B492908A897008D5D1F /* CriptoCesarAppUITestsLaunchTests.swift */; };
+		C0AC0B7D2908A8EC008D5D1F /* EFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B642908A8EC008D5D1F /* EFButton.swift */; };
+		C0AC0B7E2908A8EC008D5D1F /* EFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B652908A8EC008D5D1F /* EFTextField.swift */; };
+		C0AC0B7F2908A8EC008D5D1F /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B662908A8EC008D5D1F /* String+Ext.swift */; };
+		C0AC0B812908A8EC008D5D1F /* CoordinatorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B6A2908A8EC008D5D1F /* CoordinatorConfiguration.swift */; };
+		C0AC0B822908A8EC008D5D1F /* CoordinatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B6B2908A8EC008D5D1F /* CoordinatedViewController.swift */; };
+		C0AC0B832908A8EC008D5D1F /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B6C2908A8EC008D5D1F /* BaseCoordinator.swift */; };
+		C0AC0B842908A8EC008D5D1F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B6D2908A8EC008D5D1F /* Coordinator.swift */; };
+		C0AC0B852908A8EC008D5D1F /* ViewCodeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B6F2908A8EC008D5D1F /* ViewCodeContract.swift */; };
+		C0AC0B862908A8EC008D5D1F /* UIView+SafeAreaAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B702908A8EC008D5D1F /* UIView+SafeAreaAnchors.swift */; };
+		C0AC0B872908A8EC008D5D1F /* NSLayoutDimension+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B712908A8EC008D5D1F /* NSLayoutDimension+Extension.swift */; };
+		C0AC0B882908A8EC008D5D1F /* AutoLayoutOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B722908A8EC008D5D1F /* AutoLayoutOption.swift */; };
+		C0AC0B892908A8EC008D5D1F /* UIView+LayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B732908A8EC008D5D1F /* UIView+LayoutGuides.swift */; };
+		C0AC0B8A2908A8EC008D5D1F /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B742908A8EC008D5D1F /* Padding.swift */; };
+		C0AC0B8B2908A8EC008D5D1F /* UIView+RawAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B752908A8EC008D5D1F /* UIView+RawAnchors.swift */; };
+		C0AC0B8C2908A8EC008D5D1F /* ActionTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B762908A8EC008D5D1F /* ActionTypealias.swift */; };
+		C0AC0B8D2908A8EC008D5D1F /* UIView+AxisAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B772908A8EC008D5D1F /* UIView+AxisAttribute.swift */; };
+		C0AC0B8E2908A8EC008D5D1F /* CascadeOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B782908A8EC008D5D1F /* CascadeOperator.swift */; };
+		C0AC0B8F2908A8EC008D5D1F /* TextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B792908A8EC008D5D1F /* TextField+Ext.swift */; };
+		C0AC0B902908A8EC008D5D1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC0B7A2908A8EC008D5D1F /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +56,6 @@
 /* Begin PBXFileReference section */
 		C0AC0B232908A896008D5D1F /* CriptoCesarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CriptoCesarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AC0B262908A896008D5D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0AC0B282908A896008D5D1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C0AC0B2A2908A896008D5D1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0AC0B2D2908A896008D5D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0AC0B2F2908A897008D5D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +66,25 @@
 		C0AC0B432908A897008D5D1F /* CriptoCesarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CriptoCesarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AC0B472908A897008D5D1F /* CriptoCesarAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoCesarAppUITests.swift; sourceTree = "<group>"; };
 		C0AC0B492908A897008D5D1F /* CriptoCesarAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoCesarAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0AC0B642908A8EC008D5D1F /* EFButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFButton.swift; sourceTree = "<group>"; };
+		C0AC0B652908A8EC008D5D1F /* EFTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFTextField.swift; sourceTree = "<group>"; };
+		C0AC0B662908A8EC008D5D1F /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		C0AC0B6A2908A8EC008D5D1F /* CoordinatorConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorConfiguration.swift; sourceTree = "<group>"; };
+		C0AC0B6B2908A8EC008D5D1F /* CoordinatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatedViewController.swift; sourceTree = "<group>"; };
+		C0AC0B6C2908A8EC008D5D1F /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		C0AC0B6D2908A8EC008D5D1F /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		C0AC0B6F2908A8EC008D5D1F /* ViewCodeContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCodeContract.swift; sourceTree = "<group>"; };
+		C0AC0B702908A8EC008D5D1F /* UIView+SafeAreaAnchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SafeAreaAnchors.swift"; sourceTree = "<group>"; };
+		C0AC0B712908A8EC008D5D1F /* NSLayoutDimension+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutDimension+Extension.swift"; sourceTree = "<group>"; };
+		C0AC0B722908A8EC008D5D1F /* AutoLayoutOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutOption.swift; sourceTree = "<group>"; };
+		C0AC0B732908A8EC008D5D1F /* UIView+LayoutGuides.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutGuides.swift"; sourceTree = "<group>"; };
+		C0AC0B742908A8EC008D5D1F /* Padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		C0AC0B752908A8EC008D5D1F /* UIView+RawAnchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+RawAnchors.swift"; sourceTree = "<group>"; };
+		C0AC0B762908A8EC008D5D1F /* ActionTypealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionTypealias.swift; sourceTree = "<group>"; };
+		C0AC0B772908A8EC008D5D1F /* UIView+AxisAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AxisAttribute.swift"; sourceTree = "<group>"; };
+		C0AC0B782908A8EC008D5D1F /* CascadeOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CascadeOperator.swift; sourceTree = "<group>"; };
+		C0AC0B792908A8EC008D5D1F /* TextField+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+Ext.swift"; sourceTree = "<group>"; };
+		C0AC0B7A2908A8EC008D5D1F /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +135,7 @@
 		C0AC0B252908A896008D5D1F /* CriptoCesarApp */ = {
 			isa = PBXGroup;
 			children = (
-				C0AC0B262908A896008D5D1F /* AppDelegate.swift */,
-				C0AC0B282908A896008D5D1F /* SceneDelegate.swift */,
+				C0AC0B5F2908A8EC008D5D1F /* Resources */,
 				C0AC0B2A2908A896008D5D1F /* ViewController.swift */,
 				C0AC0B2C2908A896008D5D1F /* Main.storyboard */,
 				C0AC0B2F2908A897008D5D1F /* Assets.xcassets */,
@@ -125,6 +160,73 @@
 				C0AC0B492908A897008D5D1F /* CriptoCesarAppUITestsLaunchTests.swift */,
 			);
 			path = CriptoCesarAppUITests;
+			sourceTree = "<group>";
+		};
+		C0AC0B562908A8DB008D5D1F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C0AC0B5F2908A8EC008D5D1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0AC0B632908A8EC008D5D1F /* UIComponents */,
+				C0AC0B682908A8EC008D5D1F /* Infrastructure */,
+				C0AC0B7A2908A8EC008D5D1F /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C0AC0B632908A8EC008D5D1F /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				C0AC0B642908A8EC008D5D1F /* EFButton.swift */,
+				C0AC0B652908A8EC008D5D1F /* EFTextField.swift */,
+				C0AC0B662908A8EC008D5D1F /* String+Ext.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		C0AC0B682908A8EC008D5D1F /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				C0AC0B562908A8DB008D5D1F /* Sources */,
+				C0AC0B262908A896008D5D1F /* AppDelegate.swift */,
+				C0AC0B692908A8EC008D5D1F /* Coordinator */,
+				C0AC0B6E2908A8EC008D5D1F /* LayoutHelpers */,
+				C0AC0B782908A8EC008D5D1F /* CascadeOperator.swift */,
+				C0AC0B792908A8EC008D5D1F /* TextField+Ext.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		C0AC0B692908A8EC008D5D1F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				C0AC0B6A2908A8EC008D5D1F /* CoordinatorConfiguration.swift */,
+				C0AC0B6B2908A8EC008D5D1F /* CoordinatedViewController.swift */,
+				C0AC0B6C2908A8EC008D5D1F /* BaseCoordinator.swift */,
+				C0AC0B6D2908A8EC008D5D1F /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C0AC0B6E2908A8EC008D5D1F /* LayoutHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				C0AC0B6F2908A8EC008D5D1F /* ViewCodeContract.swift */,
+				C0AC0B702908A8EC008D5D1F /* UIView+SafeAreaAnchors.swift */,
+				C0AC0B712908A8EC008D5D1F /* NSLayoutDimension+Extension.swift */,
+				C0AC0B722908A8EC008D5D1F /* AutoLayoutOption.swift */,
+				C0AC0B732908A8EC008D5D1F /* UIView+LayoutGuides.swift */,
+				C0AC0B742908A8EC008D5D1F /* Padding.swift */,
+				C0AC0B752908A8EC008D5D1F /* UIView+RawAnchors.swift */,
+				C0AC0B762908A8EC008D5D1F /* ActionTypealias.swift */,
+				C0AC0B772908A8EC008D5D1F /* UIView+AxisAttribute.swift */,
+			);
+			path = LayoutHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +360,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0AC0B8E2908A8EC008D5D1F /* CascadeOperator.swift in Sources */,
+				C0AC0B7F2908A8EC008D5D1F /* String+Ext.swift in Sources */,
+				C0AC0B862908A8EC008D5D1F /* UIView+SafeAreaAnchors.swift in Sources */,
+				C0AC0B822908A8EC008D5D1F /* CoordinatedViewController.swift in Sources */,
+				C0AC0B832908A8EC008D5D1F /* BaseCoordinator.swift in Sources */,
+				C0AC0B812908A8EC008D5D1F /* CoordinatorConfiguration.swift in Sources */,
+				C0AC0B892908A8EC008D5D1F /* UIView+LayoutGuides.swift in Sources */,
+				C0AC0B8C2908A8EC008D5D1F /* ActionTypealias.swift in Sources */,
+				C0AC0B7E2908A8EC008D5D1F /* EFTextField.swift in Sources */,
+				C0AC0B8B2908A8EC008D5D1F /* UIView+RawAnchors.swift in Sources */,
+				C0AC0B842908A8EC008D5D1F /* Coordinator.swift in Sources */,
 				C0AC0B2B2908A896008D5D1F /* ViewController.swift in Sources */,
 				C0AC0B272908A896008D5D1F /* AppDelegate.swift in Sources */,
-				C0AC0B292908A896008D5D1F /* SceneDelegate.swift in Sources */,
+				C0AC0B8A2908A8EC008D5D1F /* Padding.swift in Sources */,
+				C0AC0B7D2908A8EC008D5D1F /* EFButton.swift in Sources */,
+				C0AC0B852908A8EC008D5D1F /* ViewCodeContract.swift in Sources */,
+				C0AC0B872908A8EC008D5D1F /* NSLayoutDimension+Extension.swift in Sources */,
+				C0AC0B8D2908A8EC008D5D1F /* UIView+AxisAttribute.swift in Sources */,
+				C0AC0B902908A8EC008D5D1F /* SceneDelegate.swift in Sources */,
+				C0AC0B8F2908A8EC008D5D1F /* TextField+Ext.swift in Sources */,
+				C0AC0B882908A8EC008D5D1F /* AutoLayoutOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +540,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -445,6 +565,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +573,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = leojportes.CriptoCesarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,6 +597,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +605,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = leojportes.CriptoCesarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
